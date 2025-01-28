@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelTales Compass</title> <!-- Website name as the title -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <img src="c:/Users/User/Videos/COUSERA COURSES/Javascript Programming Essentials IBM/Module 5/Project/Site Images/TravelTales Compass Logo.png" alt="TravelTales Compass Logo" class="logo">
+            <div class="navbar-content">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+                <input type="text" id="searchBar" placeholder="Search for recommendations">
+                <button type="button" id="searchButton">Search</button>
+                <button type="button" id="resetButton">Reset</button>
+            </div>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h1>Contact Us</h1>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 TravelTales Compass. All rights reserved.</p>
+    </footer>
+    <script src="./travel_recommendation.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>

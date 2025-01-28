@@ -1,0 +1,230 @@
+body {
+    background-image: url('https://thedaily.case.edu/wp-content/uploads/2021/07/plane-take-off-feat.jpg');
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.navbar .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: auto;
+}
+
+.navbar-content {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.navbar-content a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar-content input[type="text"] {
+    margin-left: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.navbar-content button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar-content button:hover {
+    background-color: #45a049;
+}
+
+.hero {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    text-align: left;
+    position: relative;
+    margin-top: 70px; 
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    z-index: 1;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.book-now {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+.book-now:hover {
+    background-color: #e74c3c;
+}
+
+.intro {
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgb(251, 252, 239); /* White background with 70% transparency */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 100px; 
+}
+
+.contact h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 30%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-icons {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+}
+
+.social-icons a {
+    margin: 10px 0;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.about {
+    max-width: 800px;
+    margin: 100px auto 20px auto; /* Added margin to prevent overlap with header and edge of screen */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.about .transparent-background {
+    background-color: rgba(255, 255, 255, 0.3); /* White background with 30% transparency */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: justify; /* Text alignment for readability */
+}
+
+.about h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about p, .about ul, .about h2 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.about h2 {
+    color: #ff5733;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.about .team-member {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.about .team-member h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
